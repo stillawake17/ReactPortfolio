@@ -1,18 +1,24 @@
-import React from 'react'
-// import projectData from '../projectData.json'
-// import project from './Project.js'
+import React from 'react';
 
-export function ProjectGallery(props)  {
+import projectData from '../projectData.json';
+import Project from './Project.js'
 
-
-
+function ProjectGallery() {
         return (
-                <>
-                <h2>project gallery</h2>
-        <div className="project">{props.children}</div>;
-        </>
-        )
-}
+          <div className="project-gallery">
+            {projectData.map((project) => (
+              <div className="project" key={project.id}>
+                <img src={project.imageUrl} alt={project.title} />
+                <div className="overlay">
+                  <h3>{project.title}</h3>
+                </div>
+              </div>
+            ))}
+          </div>
+        );
+      }
+      
+      
 
 //     const projectList = projectData.map(Project => <Project {...project} key={project.id} />)
 //     return (

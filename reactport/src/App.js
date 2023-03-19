@@ -1,6 +1,6 @@
 
 import * as React from 'react';
-import { useState } from 'react';
+
 import {Routes, Route} from 'react-router-dom';
 import Home from './pages/Home'; 
 import Contact from './pages/Contact'; 
@@ -12,9 +12,9 @@ import Project from './components/Project';
 
 
 
+
 function App() {
   const title = 'Portfolio';
-  const [project, setproject] = useState(projectData);
   return (
     <>
     <Header title={title}/>

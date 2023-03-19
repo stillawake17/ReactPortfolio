@@ -1,45 +1,37 @@
  [
     {
         "id": 0,
-        "title": "Jon0",
-        "gitRepo": "Snow",
-        "imageUrl": "https://thronesapi.com/assets/images/jon-snow.jpg"
+        "title": "Day Planner",
+        "deployed": "https://stillawake17.github.io/DayPlanner/",
+        "gitRepo": "https://github.com/stillawake17/DayPlanner",
+        "imageUrl": "dayplanner.png"
     },
     {
         "id": 1,
-        "title": "Jon1",
-        "gitRepo": "Snow",
-        "imageUrl": "https://thronesapi.com/assets/images/jon-snow.jpg"
+        "title": "Console Finances",
+        "deployed" : "https://stillawake17.github.io/Console-Finances/",
+        "gitRepo": "https://github.com/stillawake17/Console-Finances",
+        "imageUrl": "console.png"
     },
     {
         "id": 2,
-        "title": "Jon2",
-        "gitRepo": "Snow",
-        "imageUrl": "https://thronesapi.com/assets/images/jon-snow.jpg"
+        "title": "Refactoring Website",
+        "deployed": "https://stillawake17.github.io/Challenge1",
+        "gitRepo": "https://github.com/stillawake17/Challenge1",
+        "imageUrl": "horiseon.png"
     },
     {
         "id": 3,
-        "title": "Jon3",
-        "gitRepo": "Snow",
-        "imageUrl": "https://thronesapi.com/assets/images/jon-snow.jpg"
+        "title": "Your Hood",
+        "deployed":"https://jalexander94.github.io/Project-JJJ/index.html",
+        "gitRepo": "https://github.com/JAlexander94/Project-JJJ",
+        "imageUrl": "yourhood.png"
     },
     {
         "id": 4,
-        "title": "Jon4",
-        "gitRepo": "Snow",
-        "imageUrl": "https://thronesapi.com/assets/images/jon-snow.jpg"
-    },
-    {
-        "id": 5,
-        "title": "Jon5",
-        "gitRepo": "Snow",
-        "imageUrl": "https://thronesapi.com/assets/images/jon-snow.jpg"
-    },
-    {
-        "id": 6,
-        "title": "Jon6",
-        "gitRepo": "Snow",
-        "imageUrl": "https://thronesapi.com/assets/images/jon-snow.jpg"
-       
+        "title": "Grid Portfolio Page",
+        "deployed" : "https://stillawake17.github.io/Challenge2/",
+        "gitRepo": "https://github.com/stillawake17/Challenge2",
+        "imageUrl": "challenge2.png"
     }
 ]
